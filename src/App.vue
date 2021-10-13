@@ -1,22 +1,16 @@
 <template>
   <div id="app">
-    <div class="card shadow-lg my-4 mx-5" style="width: 18rem;">
-      <img src="./assets/logo.png" class="card-img-top">
-      <div class="card-body">
-        <h5 class="card-title">Tarjeta de prueba</h5>
-        <p class="card-text">El bootstrap funciona</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-
+    <nav-bar></nav-bar>
   </div>
 </template>
 
 <script>
+import NavBar from './components/nav-bar.vue'
 
 export default {
   name: 'App',
   components: {
+    NavBar
   }
 }
 </script>
