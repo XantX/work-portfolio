@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand mx-4 h1" href="#">My porfolio</a>
+      <a class="navbar-brand h1" href="#">My porfolio</a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavColapser" aria-controls="NavColapser" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -14,7 +14,7 @@
           <a class="nav-link" href="#">Tools</a>
           <a class="nav-link" href="#">Proyects</a>
         </div>
-        <button class="btn btn-outline-success me-4">Download CV</button>
+        <button class="btn btn-outline-success ">Download CV</button>
       </div>
     </div>
   </nav>
