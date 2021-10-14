@@ -1,18 +1,21 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand mx-4" href="#">My porfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand mx-4 h1" href="#">My porfolio</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#NavColapser" aria-controls="NavColapser" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+
+      <div class="collapse navbar-collapse" id="NavColapser">
+        <div class="navbar-nav me-auto">
           <a class="nav-link active" aria-current="page" href="#">About me</a>
-          <a class="nav-link" href="#">Expirience</a>
+          <a class="nav-link" href="#">Experience</a>
           <a class="nav-link" href="#">Tools</a>
+          <a class="nav-link" href="#">Proyects</a>
         </div>
+        <button class="btn btn-outline-success me-4">Download CV</button>
       </div>
-      <button class="btn btn-outline-success mx-4" type="submit">Download CV</button>
     </div>
   </nav>
 </template>
