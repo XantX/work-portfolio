@@ -24,12 +24,9 @@ export default {
 <style>
 .content {
   height: 35rem;
-  color: white;
-  background: rgba(0, 0, 0, 0.3);
+  color: rgba(251, 241, 199, 1);
+  background: rgba(60, 56, 54, 0.4);
   width:100%;
-}
-.rotar-horizontal {
-  transform: scaleX(-1);
 }
 .keyboard-background{
   background-image: url(../../static/img/keyboard-2.jpg);
