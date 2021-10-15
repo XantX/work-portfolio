@@ -28,6 +28,6 @@ export default {
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Monospace,Montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 </style>

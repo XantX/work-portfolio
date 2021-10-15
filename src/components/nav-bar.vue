@@ -17,7 +17,7 @@
 
       <div class="links collapse navbar-collapse" id="NavColapser">
         <div class="navbar-nav me-auto">
-          <a class="nav-link" aria-current="page" href="#">About me</a>
+          <a class="nav-link" aria-current="page" href="#about-me">About me</a>
           <a class="nav-link" href="#">Experience</a>
           <a class="nav-link" href="#">Tools</a>
           <a class="nav-link" href="#">Proyects</a>
