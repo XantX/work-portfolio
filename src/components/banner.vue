@@ -2,29 +2,33 @@
   <div class="container-fluid keyboard-background">
     <div class="d-flex justify-content-around content">
       <div class="align-self-center">
-        <vue-typed-js
-          :strings="['Hola, mi nombre es Sebastian Diaz Torres']"
-          :typeSpeed="70"
-          :showCursor="true"
-        >
-          <h1 class="typing"></h1>
-        </vue-typed-js>
-        <vue-typed-js
-          :strings="['Soy desarrollador de software']"
-          :typeSpeed="70"
-          :showCursor="false"
-          :startDelay="4500"
-        >
-          <p class="typing fs-4"></p>
-        </vue-typed-js>
+        <h1 class="title">
+          <vue-typer
+            :repeat="0"
+            text="Hola, mi nombre es Sebastian Diaz Torres"
+            ></vue-typer>
+        </h1>
+        <p class="sub-title">
+          <vue-typer
+            :repeat="0"
+            :pre-type-delay="4500"
+            text="Soy desarrollador de software"
+          ></vue-typer>
+        </p>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import { VueTyper } from "vue-typer";
+
 export default {
   name: "Banner",
+  components: {
+    VueTyper,
+    "vue-typer": VueTyper,
+  },
 };
 </script>
 
@@ -45,5 +49,16 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 !important;
+}
+.vue-typer .custom.char {
+  color: #fbf1c7 !important;
+}
+
+.vue-typer .custom.caret {
+  width: 5px;
+  background-color: #fbf1c7 !important;
+}
+.sub-title .vue-typer .custom.caret {
+  display: none;
 }
 </style>
