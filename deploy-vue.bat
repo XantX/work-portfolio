@@ -1,6 +1,8 @@
 @echo off
 call npm run build
-call git add dist -f
+cd dist
+call git add -A
 set version=%1
 call git commit -m "version %version%"
-call git subtree push --prefix dist origin gh-pages
+call git push -f git@github.com:XantX/work-portfolio.git master:gh-pages
+cd ..
