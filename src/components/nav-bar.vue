@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-dark bg-dark navbar-expand-lg sticky-top">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand h1 logo" href="#">My porfolio</a>
 
       <button

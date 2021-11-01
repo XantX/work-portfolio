@@ -1,11 +1,19 @@
 <template>
   <div class="container-fluid keyboard-background">
     <div class="d-flex justify-content-around content">
-      <div class="align-self-center">
+      <div class="align-self-center p-2">
         <h1 class="title">
           <vue-typer
             :repeat="0"
-            text="Hola, mi nombre es Sebastian Diaz Torres"
+            text="Hola, mi nombre es "
+            ></vue-typer>
+
+        </h1>
+        <h1 class="title">
+          <vue-typer
+            :repeat="0"
+            :pre-type-delay="3200"
+            text="Sebastian Diaz Torres"
             ></vue-typer>
         </h1>
         <p class="sub-title">
